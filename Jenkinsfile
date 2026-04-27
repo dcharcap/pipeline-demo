@@ -26,7 +26,7 @@ pipeline {
             }
         }
 
-        stage('Docker Run') {
+        stage('Docker Run - Normal Logging Demo') {
             steps {
                 bat 'docker run --rm pipeline-demo'
             }
